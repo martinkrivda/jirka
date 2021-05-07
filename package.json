@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "scripts": {
+    "prettier": "prettier --write \"docs/**/*.{js,ts,jsx,tsx,json,scss,md}\" README.md \"{frontend,backend}/src/**/*.{js,ts,jsx,tsx,json,css,scss}\" \"{frontend,backend}/README.md\"",
+    "start": "cd backend && node index.js",
+    "heroku-postbuild": "cd frontend && yarn && yarn run build"
+  },
+  "devDependencies": {
+    "prettier": "2.2.1"
+  }
+}
