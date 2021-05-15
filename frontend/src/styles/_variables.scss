@@ -1,0 +1,41 @@
+// Colors
+$color-black: rgb(0, 0, 0);
+$color-white: rgb(255, 255, 255);
+$color-gray-light: rgba($color-white, 0.15);
+$color-gray-dark: rgba($color-black, 0.15);
+
+$primary: #1e79c7;
+$secondary: #e5681a;
+
+// Shadows
+$box-shadow: 0 0.5rem 1rem rgba($color-black, 0.15);
+$box-shadow-sm: 0 2px 18px rgba(0, 0, 0, 0.02);
+$box-shadow-lg: 0 1rem 3rem rgba($color-black, 0.175);
+$box-shadow-inset: inset 0 1px 2px rgba($color-black, 0.075);
+
+// Options
+//
+// Quickly modify global styling by enabling or disabling optional features.
+
+$enable-caret: true;
+$enable-rounded: true;
+$enable-shadows: true;
+$enable-gradients: false;
+$enable-transitions: true;
+$enable-reduced-motion: true;
+$enable-grid-classes: true;
+$enable-button-pointers: true;
+$enable-rfs: true;
+$enable-validation-icons: true;
+$enable-negative-margins: true;
+$enable-deprecation-messages: true;
+$enable-important-utilities: true;
+$enable-smooth-scroll: false;
+
+// Components
+$transition-base: all 0.2s ease;
+
+:export {
+  primary: $primary;
+  secondary: $secondary;
+}

@@ -299,3 +299,9 @@ $spaces: (
 .maxwidth-800 {
   max-width: 800px !important;
 }
+
+@for $nr from 1 to 40 {
+  .fmxw-#{$nr*50} {
+    max-width: #{$nr * 50}px !important;
+  }
+}
