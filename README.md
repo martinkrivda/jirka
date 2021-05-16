@@ -1,10 +1,11 @@
 # Jirka
+
 Information system for sports clubs
 
-| Branch      | Status                                                                                                                                              |
-| ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `develop`\* | |
-| `main`    |                                                                                                                                                     |
+| Branch      | Status |
+| ----------- | ------ |
+| `develop`\* |        |
+| `main`      |        |
 
 <sub>\* `develop` was selected as the main branch</sub>
 
@@ -31,12 +32,15 @@ New JavaScript features (ES2015) are "enabled" for for all modern browsers with 
 - using [Atomic Design](https://atomicdesign.bradfrost.com/table-of-contents/)
 
 ## NodeJS Express
+
 - **[Express docs](https://expressjs.com/en/starter/hello-world.html)**
 
 ## GraphQL
+
 - **[Apollo docs](https://www.apollographql.com/docs/)**
 
 ## Prisma ORM
+
 - **[Prisma docs](https://www.prisma.io/)**
 
 ## Local development
@@ -60,11 +64,12 @@ yarn start
 ```
 
 ## Deployment
+
 [Deployment docs](docs/DEPLOYMENT.md).
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](./CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [Contributing docs](docs/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 1. Create your feature branch: `git checkout -b Feature/my-new-feature`
 2. Commit your changes: `git commit -am 'Add some feature'`
@@ -73,4 +78,4 @@ Please read [CONTRIBUTING.md](./CONTRIBUTING.md) for details on our code of cond
 
 ## Credits
 
-- **Martin Křivda** - *Initial work*
+- **Martin Křivda** - _Initial work_
